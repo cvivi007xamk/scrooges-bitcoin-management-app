@@ -1,3 +1,4 @@
+import React from "react";
 const BearishTrend = (props) => {
 	const prices = props.dayPrices;
 	var longestTrend = 0;

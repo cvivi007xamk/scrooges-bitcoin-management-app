@@ -1,3 +1,4 @@
+import React from "react";
 // Make a component where one can change the coin. This is an extra component/feature that is actually not used (but is there if needed to add later)
 const deAccent = (string) => {
 	return string

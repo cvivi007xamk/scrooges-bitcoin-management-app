@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, useEffect } from "react";
 import ChangeDates from "./home/ChangeDates";
 import ResultsTable from "./home/ResultsTable";

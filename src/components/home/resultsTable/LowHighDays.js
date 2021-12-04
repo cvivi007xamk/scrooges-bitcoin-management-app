@@ -1,3 +1,4 @@
+import React from "react";
 const LowHighDays = (props) => {
 	const prices = props.dayPrices;
 

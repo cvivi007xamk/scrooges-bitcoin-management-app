@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, useEffect } from "react";
 import BearishTrend from "./resultsTable/BearishTrend";
 import LowHighDays from "./resultsTable/LowHighDays";

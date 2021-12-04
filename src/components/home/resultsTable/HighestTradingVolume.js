@@ -1,3 +1,4 @@
+import React from "react";
 const HighestTradingVolume = (props) => {
 	const volumes = props.volumes;
 	// We could use Math.max(...volumes[1]) and Math.min(...volumes[1]), but that can exceed JavaScript limit with very big arrays.

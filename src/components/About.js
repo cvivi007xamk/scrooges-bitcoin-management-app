@@ -1,3 +1,4 @@
+import React from "react";
 import vincit from "../assets/vincit_logo_red.jpg";
 
 const About = () => {

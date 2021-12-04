@@ -1,3 +1,4 @@
+import React from "react";
 const CoinPrices = () => {
 	return (
 		<div className="main-view">
