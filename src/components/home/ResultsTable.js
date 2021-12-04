@@ -29,18 +29,30 @@ const ResultsTable = (props) => {
 	}, [props.data, prices]); // eslint-disable-line react-hooks/exhaustive-deps
 	// Not the best solution to disable warning here, but it is unnecessary and unwanted
 
-	return (
-		<div className="results-table">
-			<h1>Results:</h1>
-			<BearishTrend dayPrices={dayPrices} />
-			<br />
+	if (dayPrices.length == 0) {
+		return (
+			<div className="results-table">
+				<h1>Results:</h1>
+				<p>
+					Please select a date range where the start date is earlier
+					than the end date.
+				</p>
+			</div>
+		);
+	} else {
+		return (
+			<div className="results-table">
+				<h1>Results:</h1>
+				<BearishTrend dayPrices={dayPrices} />
+				<br />
 
-			<LowHighDays dayPrices={dayPrices} />
-			<br />
+				<LowHighDays dayPrices={dayPrices} />
+				<br />
 
-			<HighestTradingVolume volumes={volumes} />
-		</div>
-	);
+				<HighestTradingVolume volumes={volumes} />
+			</div>
+		);
+	}
 };
 
 export default ResultsTable;

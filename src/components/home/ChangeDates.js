@@ -48,6 +48,7 @@ const ChangeDates = (props) => {
 						id="endDate"
 						name="endDate"
 						min={startDateString}
+						max={today}
 						defaultValue={today}
 						onChange={(event) => {
 							// Set the end time as UTC 00:00 +1 hour (so 01:00)
