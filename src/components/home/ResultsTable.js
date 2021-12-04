@@ -29,7 +29,7 @@ const ResultsTable = (props) => {
 	}, [props.data, prices]); // eslint-disable-line react-hooks/exhaustive-deps
 	// Not the best solution to disable warning here, but it is unnecessary and unwanted
 
-	if (dayPrices.length == 0) {
+	if (dayPrices.length === 0) {
 		return (
 			<div className="results-table">
 				<h1>Results:</h1>
