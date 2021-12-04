@@ -6,7 +6,7 @@ const Footer = (props) => {
 				Copyright &copy; Ville Virtanen {currentYear}
 			</h4>
 			<address align="center">
-				Ville Virtanen <br /> ville.o.virtanen@icloud.com <br />
+				ville.o.virtanen@icloud.com <br />
 				044 342 5088
 			</address>
 		</footer>

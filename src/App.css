@@ -20,13 +20,16 @@ ul {
 }
 p,
 label {
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
 }
 header img {
 	height: 60px;
 	margin-left: 20px;
 	margin-right: 20px;
+}
+.vincit-logo {
+	max-width: 60%;
 }
 header {
 	position: fixed;
@@ -127,7 +130,8 @@ button:active {
 	color: #000000;
 	background-color: #fff;
 	margin-top: 80px;
-	padding-top: 20px;
+	margin-bottom: 80px;
+	padding: 20px;
 }
 .date-picker {
 	display: inline-block;
@@ -161,6 +165,7 @@ footer {
 	bottom: 0;
 	left: 0;
 	right: 0;
+	height: 80px;
 }
 
 /*Mobiili max.600*/
@@ -171,7 +176,7 @@ footer {
 	}
 	p,
 	label {
-		font-size: 16px;
+		font-size: 14px;
 	}
 	header img {
 		height: 60px;
@@ -196,10 +201,7 @@ footer {
 		text-transform: uppercase;
 		font-weight: bold;
 	}
-	p,
-	label {
-		font-size: 16px;
-	}
+
 	.title-small {
 		display: none;
 	}
