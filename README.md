@@ -1,7 +1,3 @@
-## Rising Star pre-assignment submission of:
-
-# Ville Virtanen
-
 ### Instructions:
 
 The Home page provides information on selected date range. You can use the date pickers to choose start and end dates (note that you can't choose an end date that is earlier than the selected start date and vice versa). The About page provides use instructions and general information about the app. The Wallet and Price pages are currently under construction and may be utilized later.
